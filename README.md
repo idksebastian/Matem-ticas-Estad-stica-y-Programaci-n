@@ -123,7 +123,7 @@ print("Ahorro de agua estimado:", 7 - riegos)
 Ejercicio 2: Clasificación de calidad de cosecha
 def peso_promedio(pesos):
     return sum(pesos) / len(pesos)
-
+~~~
 def porcentaje_defectos(defectuosas, total):
     return (defectuosas / total) * 100
 
@@ -144,11 +144,13 @@ for i in range(lotes):
         categoria = "Rechazo"
 
     print(f"Lote {i+1}: Categoría {categoria}")
+~~~
 ---
 
 ## Ejercicio 3: Planificación de rotación de cultivos
 
 ---
+~~~
 CONSUMO_N = {
     "maíz": 30,
     "soya": 20,
@@ -177,10 +179,11 @@ print("Consumo total de nitrógeno:", consumo_total(cultivos))
 if verificar_rotacion(cultivos):
     print("Se recomienda alternar cultivos o dejar descanso")
 ---
-
+~~~
 ## Ejercicio 4: Control de inventario
 
 ---
+~~~
 MINIMO = 10
 
 inventario = {
@@ -206,12 +209,13 @@ def valor_total(inv, precios):
 
 print("Inventario final:", inventario)
 print("Valor total del inventario:", valor_total(inventario, precios))
-
+~~~
 ---
 
 ## Ejercicio 5: Evaluación de desempeño de maquinaria
 
 ---
+~~~
 EXCELENTE = 1.5
 ACEPTABLE = 1.0
 
@@ -239,4 +243,4 @@ for i in range(tractores):
         estado = "Deficiente"
 
     print(f"Tractor {i+1}: Desempeño {estado}")
-     
+     ~~~
