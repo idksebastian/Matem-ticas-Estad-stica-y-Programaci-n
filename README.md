@@ -1,6 +1,4 @@
 
-Open In Colab
-
 # Matemáticas y Estadística en la Inteligencia Artificial
 
 ## Introducción
@@ -244,4 +242,4 @@ for i in range(tractores):
         estado = "Deficiente"
 
     print(f"Tractor {i+1}: Desempeño {estado}")
-     ~~~
+~~~
