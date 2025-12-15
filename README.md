@@ -98,11 +98,8 @@ Usos principales:
 import seaborn as sns
 sns.histplot([1,2,2,3,3,3])
 ~~~
----
 
 ## Ejercicios de Lógica de Programación
-
----
 
 ## Ejercicio 1: Sistema de riego inteligente
 
@@ -124,9 +121,10 @@ print("Total de riegos realizados:", riegos)
 print("Ahorro de agua estimado:", 7 - riegos)
 ~~~
 ## Ejercicio 2: Clasificación de calidad de cosecha
+~~~-
 def peso_promedio(pesos):
     return sum(pesos) / len(pesos)
-~~~
+
 def porcentaje_defectos(defectuosas, total):
     return (defectuosas / total) * 100
 
