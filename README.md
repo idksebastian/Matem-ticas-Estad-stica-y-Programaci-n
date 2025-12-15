@@ -22,11 +22,11 @@ Las matemáticas constituyen la base teórica de la inteligencia artificial y se
 - Ajustar parámetros de aprendizaje
 
 Ejemplo de función matemática utilizada en inteligencia artificial:
-
+~~~
 \[
 f(x) = \frac{1}{1 + e^{-x}}
 \]
-
+~~~
 ---
 
 ### Estadística
@@ -52,12 +52,12 @@ Usos principales:
 - Lectura de archivos CSV y Excel
 - Limpieza de datos
 - Análisis estadístico descriptivo
-
+~~~
 python
 import pandas as pd
 df = pd.read_csv("datos.csv")
 df.describe()
-
+~~~
      
 
 ## NumPy
@@ -67,11 +67,11 @@ Usos principales:
 - Operaciones vectoriales
 - Cálculo de estadísticas
 - Manejo de matrices
-
+~~~
 import numpy as np
 datos = np.array([10, 20, 30])
 np.mean(datos)
-
+~~~
 ## Matplotlib
 
 Matplotlib se usa para crear visualizaciones básicas de datos.
@@ -80,11 +80,11 @@ Usos principales:
 - Gráficos de líneas
 - Gráficos de barras
 - Histogramas
-
+~~~
 import matplotlib.pyplot as plt
 plt.plot([1,2,3], [4,5,6])
 plt.show()
-
+~~~
 ## Seaborn
 
 Seaborn facilita la creación de gráficos estadísticos avanzados.
@@ -94,8 +94,10 @@ Usos principales:
 - Gráficos comparativos
 - Análisis exploratorio de datos
 
+~~~
 import seaborn as sns
 sns.histplot([1,2,2,3,3,3])
+~~~
 ---
 
 ## Ejercicios de Lógica de Programación
@@ -105,6 +107,7 @@ sns.histplot([1,2,2,3,3,3])
 ## Ejercicio 1: Sistema de riego inteligente
 
 ---
+~~~
 HUMEDAD_OPTIMA = 60
 MARGEN_SEGURIDAD = 5
 
@@ -119,8 +122,8 @@ for dia in range(7):
 
 print("Total de riegos realizados:", riegos)
 print("Ahorro de agua estimado:", 7 - riegos)
-
-Ejercicio 2: Clasificación de calidad de cosecha
+~~~
+## Ejercicio 2: Clasificación de calidad de cosecha
 def peso_promedio(pesos):
     return sum(pesos) / len(pesos)
 ~~~
